@@ -1,6 +1,7 @@
 {
   "name": "meta-weather",
   "version": 2,
+  "public": false,
   "builds": [
     { "src": "api/*.ts", "use": "@now/node" }
   ],
