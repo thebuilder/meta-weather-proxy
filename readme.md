@@ -1,5 +1,7 @@
 # Meta Weather Proxy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/thebuilder/meta-weather-proxy.svg)](https://greenkeeper.io/)
+
 Proxy [metaweather.com](https://www.metaweather.com/api/) to set `Access-Control-Allow-Origin: *`. 
 This prevents **CORS** issues when trying to access the API from a client.
 All the requests are cached on the server, to minimize the amount of repeat requests being made.
