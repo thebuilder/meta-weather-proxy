@@ -1,0 +1,16 @@
+{
+  "name": "meta-weather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "10.x"
+  },
+  "devDependencies": {
+    "@now/node": "^1.0.2",
+    "now": "^16.4.4"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0"
+  }
+}
