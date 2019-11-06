@@ -16,8 +16,8 @@
       }
     },
     {
-      "src": "/(.+)",
-      "dest": "https://www.metaweather.com/$1",
+      "src": "(.+)",
+      "dest": "https://www.metaweather.com$1",
       "headers": {
         "X-Robots-Tag": "noindex",
         "cache-control": "s-maxage=6000,public,max-age=31536000"
