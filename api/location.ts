@@ -6,7 +6,7 @@ export default async (req: NowRequest, res: NowResponse) => {
   Object.keys(req.query).forEach(key =>  {
     if (key !== 'endpoint') params.set(key, req.query[key] as string)
   })
-
+  res.setHeader("Access-Control-Allow-Origin", "*")
   try {
     const url = new URL('https://www.metaweather.com/api/location/' + req.query.endpoint + '?' +  params.toString())
     const result = await fetch(url.toString())
