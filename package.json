@@ -8,10 +8,10 @@
     "node": ">=10.0.0"
   },
   "devDependencies": {
-    "@now/node": "^1.0.2",
     "now": "^16.4.4"
   },
   "dependencies": {
+    "@now/node": "^1.0.2",
     "isomorphic-unfetch": "^3.0.0"
   }
 }

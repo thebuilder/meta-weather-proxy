@@ -11,6 +11,7 @@
       "dest": "https://www.metaweather.com/api/location$1",
       "headers": {
         "X-Robots-Tag": "noindex",
+        "Access-Control-Allow-Origin": "*",
         "cache-control":"s-maxage=600"
       }
     },
