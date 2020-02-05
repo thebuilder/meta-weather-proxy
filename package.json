@@ -8,7 +8,7 @@
     "node": ">=10.0.0"
   },
   "devDependencies": {
-    "now": "^16.4.4"
+    "now": "^17.0.0"
   },
   "dependencies": {
     "@now/node": "^1.0.2",
